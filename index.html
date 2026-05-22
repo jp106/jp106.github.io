@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Jhansi Pailla - Personal Website" />
+  <title>Resume - Jhansi Pailla</title>
+  <!-- <title>Jhansi Bheemidi | Personal Website</title> -->
+  <style>
+    :root{
+      --bg:#f6f7fb; --card:#fff; --muted:#6b7280; --accent:#0ea5a4;
+      --paper-width:900px;
+      --print-margin:20mm;
+      color-scheme: light;
+      font-family: Inter, Roboto, system-ui, -apple-system, "Segoe UI", "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;background:linear-gradient(180deg, var(--bg), #eef2f7 60%);font-size:16px}
+    .wrap{max-width:var(--paper-width);margin:32px auto;padding:24px}
+    .resume{
+      background:var(--card);
+      border-radius:12px;
+      box-shadow:0 8px 30px rgba(16,24,40,0.08);
+      overflow:hidden;
+      display:grid;
+      grid-template-columns: 320px 1fr;
+      min-height:540px;
+    }
+
+    /* Left column (profile) */
+    .side{
+      background:linear-gradient(180deg, #fff, #fbfdfe);
+      padding:28px;
+      border-right:1px solid #eef2f6;
+      display:flex;
+      flex-direction:column;
+      gap:18px;
+    }
+    h1{font-size:20px;margin:0 0 4px 0}
+    .title{color:var(--muted);font-weight:600;font-size:13px;margin-bottom:10px}
+    .contact, .skills, .education{background:transparent;padding:6px 0}
+    .contact li, .skills li, .education li{list-style:none;margin:8px 0;color:var(--muted);font-size:14px;display:flex;gap:8px;align-items:center}
+    .label{font-weight:700;color:#111;min-width:72px;font-size:13px}
+
+    /* Right column (content) */
+    .main{padding:28px 32px;display:flex;flex-direction:column;gap:18px}
+    .section{margin-bottom:6px}
+    .section h2{font-size:16px;margin:0 0 10px 0;display:flex;align-items:center;gap:8px}
+    .summary{color:var(--muted);font-size:15px;line-height:1.45}
+    .job{padding:12px;border-radius:8px;background:#fbfdff;border:1px solid #eef6f7}
+    .job .row{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+    .job h3{margin:0;font-size:15px}
+    .job .meta{color:var(--muted);font-size:13px}
+    .bullets{margin:8px 0 0 16px;color:var(--muted);font-size:14px}
+    .skills-list{display:flex;flex-wrap:wrap;gap:8px}
+    .chip{background:#f1f6f6;padding:6px 10px;border-radius:999px;font-size:13px;color:#07494a}
+
+    /* Footer small details */
+    .small{color:var(--muted);font-size:13px}
+
+    /* Responsive */
+    @media (max-width:880px){
+      .resume{grid-template-columns:1fr;min-height:unset}
+      .side{order:2;border-right:0;border-top:1px solid #eef2f6}
+    }
+
+    /* Print-friendly */
+    @media print{
+      body{background:white}
+      .wrap{margin:0}
+      .resume{box-shadow:none;border-radius:0}
+      @page{size: auto; margin: var(--print-margin)}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="resume" role="document" aria-label="Resume">
+      <aside class="side" aria-label="Profile">
+        <div>
+          <h1>Jhansi Bheemidi</h1>
+          <div class="title">GIS Consultant • Product Developer</div>
+        </div>
+
+        <div class="contact">
+          <ul>
+            <li><span class="label">Email</span><span>jhansi131@yahoo.com</span></li>
+            <!-- <li><span class="label">Phone</span><span></span></li> -->
+            <li><span class="label">Website</span>
+            <a href="https://jhansi.jirawiser.online" target="_blank" rel="noopener noreferrer">Personal Website</a></li>
+            <li><span class="label">Location</span><span>Netherlands</span></li>
+          </ul>
+        </div>
+
+        <div class="skills">
+          <h3 class="small">Skills</h3>
+          <div class="skills-list">
+            <div class="chip">Python, C#</div>
+            <div class="chip">ArcGIS Enterprise</div>
+            <div class="chip">ArcGIS Pro</div>
+            <div class="chip">JavaScript</div>
+            <div class="chip">Linux</div>
+            <div class="chip">Docker</div>
+          </div>
+        </div>
+
+        <div class="education">
+          <h3 class="small">Education</h3>
+          <ul>
+            <li>
+              <div><strong>M.S. Geographic Information Systems</strong></div>
+              <div class="small">Eastern Michigan University, USA — 2008</div>
+            </li>
+            <li>
+              <div><strong>Bachelor’s in Urban Planning</strong></div>
+              <div class="small">JNTU, India — 2005</div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="small" style="margin-top:auto">Available for relocation • Open to remote</div>
+      </aside>
+
+      <main class="main" aria-label="Experience and Projects">
+        <section class="section">
+          <h2>Summary</h2>
+          <p class="summary">Product-focused GIS professional with 12+ years of experience designing, implementing, and maintaining geospatial solutions using the Esri ArcGIS suite.</p>
+        </section>
+
+        <section class="section">
+          <h2>Experience</h2>
+
+          <article class="job" aria-label="Job — Current">
+            <div class="row">
+              <div>
+                <h3>GIS Consultant — Avineon Tensing</h3>
+                <div class="meta">June 2017 — Jan 2026</div>
+              </div>
+              <div class="meta">Utrecht, Netherlands</div>
+            </div>
+            <h2>Eversource, Technical Integrations Lead for the GIS Consolidation, System Integration & Upgrade program</h2>
+            <ul class="bullets">
+              <li>Led cross‑enterprise GIS integration efforts, designed and delivered integration solutions, and presented progress and technical recommendations to stakeholders in an Agile environment.</li>
+              <li>Coordinated implementation with internal engineers and partner teams across multiple time zones to ensure on‑time, high‑quality releases.</li>
+              <li>Designed repeatable deployment procedures that backed up workspaces, service registrations, and resource files, validated configurations, and restored them into target environments. </li>
+              <li>Coordinated with QA and operations teams to schedule automated promotions, document the process, and train stakeholders on the new lifecycle workflow. </li>
+            </ul>
+            <h2>Tennet B.V., Lead developer for BMRGIS</h2>
+            <ul class="bullets">
+              <li>Implemented custom Python tools for ArcGIS Pro to deploy utility networks and tailored solutions; implemented attribute rules and topology validations in ArcGIS Enterprise, reducing attribute errors by 60% and accelerating QA workflows by 50%. </li>
+              <li>Developed robust Python tooling to automate attribute-rule deployment across development, test, and production ArcGIS environments, replacing manual processes with consistent, repeatable workflows and cutting deployment time by 70%.</li>
+            </ul>
+            <h2>Vitens, Functional Application Manager for ArcGIS Enterprise and Portal</h2>
+            <ul class="bullets">
+              <li>Managed ArcGIS Enterprise and Portal applications end‑to‑end to ensure reliability, performance, and data integrity.</li>
+              <li>Tuned maps and services—identifying and resolving performance bottlenecks to improve load and rendering times.</li>
+              <li>Leveraged GIS and non‑GIS profiling tools (ArcGIS Server logs, ArcGIS Monitor, browser dev tools, SQL performance traces, and network diagnostics) to identify map and application performance bottlenecks and implement targeted optimizations. </li>
+            </ul>
+          </article>
+          <article class="job" aria-label="Job — Previous">
+            <div class="row">
+              <div>
+                <h3>GIS Developer — Tensing USA</h3>
+                <div class="meta">June 2017 — Jan 2026</div>
+              </div>
+              <div class="meta">Utrecht, Netherlands</div>
+            </div>
+            <ul class="bullets">
+              <li>Built a Python-based data-correction utility to snap hundreds of pipeline features to bore lines following client-defined rules, improving topology accuracy and drastically reducing manual remediation time.</li>
+              <li>Redesigned and implemented an ArcGIS Pro add-in for data management that executes FME workspaces to perform spatial analyses and publish validated datasets to an ArcSDE geodatabase.</li>
+              <li>Collaborated with designers to prototype and ship three major product features.</li>
+            </ul>
+          </article>
+
+          <article class="job" aria-label="Job — Previous">
+            <div class="row">
+              <div>
+                <h3>GIS Developer — Futura Systems Inc</h3>
+                <div class="meta">Sep 2013 — June 2017</div>
+              </div>
+              <div class="meta">Atlanta, USA</div>
+            </div>
+            <ul class="bullets">
+              <li>Developed Futura Catalyst, a dynamic GIS map Viewer for electric utilities, to view real-time data from multiple third-party vendors. </li>
+              <li>Redesigned and implemented an ArcGIS Pro add-in for data management that executes FME workspaces to perform spatial analyses and publish validated datasets to an ArcSDE geodatabase.</li>
+              <li>Collaborated with designers to prototype and ship three major product features.</li>
+            </ul>
+          </article>
+          <article class="job" aria-label="Job — Previous">
+            <div class="row">
+              <div>
+                <h3>GIS Developer — Superior Infotech</h3>
+                <div class="meta">Oct 2009 — Sep 2013</div>
+              </div>
+              <div class="meta">Detroit, USA</div>
+            </div>
+            <ul class="bullets">
+              <li>Designed and delivered multiple web and desktop GIS applications for water utilities and other clients, addressing asset management, analysis, and operational workflows.</li>
+              
+            </ul>
+          </article>
+        </section>
+        <section class="section">
+          <h2>Additional</h2>
+          <ul class="bullets">
+            <li>Languages: Telugu (native), English (professional), Dutch (B1)</li>
+            <li>Interests: gardening, open-source</li>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </div>
+</body>
+</html>
