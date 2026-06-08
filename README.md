@@ -2,11 +2,11 @@
 # JHANSI BHEEMIDI
 
 ## 🚀 About
-This repository hosts my personal portfolio and blog. Here, I share my projects, write about my learning journey, and showcase my skills in **[Your Primary Skills, e.g., GIS Development, Projects]**.
+This repository hosts my personal website where, I share my projects in **[GIS Development, Projects]**.
 
-- 🎓 **Focus**: ArcGIS Architecture, Spatial Data Engineering, Infrastructure as Code (IaC)  
+- 🎓 **Focus**: ArcGIS Architecture, Spatial Data Engineering,  ArcGIS API for Python
 - 💼 **Open to**: Senior GIS Developer, DevOps Lead (GIS), Geospatial Platform Architect  
-- 🌱 **Currently exploring**: ArcGIS API for Python, Kubernetes for Spatial Services, Azure/AWS Geo-Cloud
+- 🌱 **Currently exploring**: Infrastructure as Code (IaC), Kubernetes, AWS
 
 ## 🛠️ Tech Stack
 
@@ -26,5 +26,5 @@ This repository hosts my personal portfolio and blog. Here, I share my projects,
 
 ## 📬 Get in Touch
 - **Email**: [jhansi131@yahoo.com](mailto:jhansi131@yahoo.com)
-- **LinkedIn**: [linkedin.com/in/yourprofile](https://linkedin.com/in/jhansipailla)
-- **GitHub**: [github.com/yourusername](https://github.com/jp106)
+- **LinkedIn**: [linkedin.com/in/jhansipailla](https://linkedin.com/in/jhansipailla)
+- **GitHub**: [github.com/jp106](https://github.com/jp106)
