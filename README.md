@@ -1,10 +1,10 @@
 # JHANSI PAILLA's Personal Website
-# JHANSI BHEEMIDI
+
 
 ## 🚀 About
 This repository hosts my personal website where, I share my projects in **[GIS Development, Projects]**.
 
-- 🎓 **Focus**: ArcGIS Architecture, Spatial Data Engineering,  ArcGIS API for Python
+- 🎓 **Focus**: Esri - ArcGIS Pro, ArcGIS API for Python, 
 - 💼 **Open to**: Senior GIS Developer, DevOps Lead (GIS), Geospatial Platform Architect  
 - 🌱 **Currently exploring**: Infrastructure as Code (IaC), Kubernetes, AWS
 
@@ -21,7 +21,7 @@ This repository hosts my personal website where, I share my projects in **[GIS D
 - **Cloud**: AWS (S3, EC2, Lambda), Azure (Blob, Functions), Google Cloud Platform -->
 
 ### 🗄️ Data & Database
-- **Spatial DBs**: PostgreSQL/PostGIS, Oracle Spatial, SQL Server
+- **Spatial DBs**: PostgreSQL/PostGIS, Oracle, SQL Server
 - **ETL Tools**: FME (Safe Software), ArcGIS Data Interoperability
 
 ## 📬 Get in Touch
