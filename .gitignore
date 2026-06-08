@@ -1,0 +1,4 @@
+# --- IDE & Editor ---
+.vscode/
+!.vscode/settings.json  # Keep specific settings if needed
+.idea/
