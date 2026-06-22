@@ -2,7 +2,7 @@
 
 
 ##  About
-This repository hosts my personal website where, I share my projects in **[GIS Development, Projects]**.
+This repository hosts my personal website where, I share my projects and experience.
 
 -  **Focus**: Esri - ArcGIS Pro, ArcGIS API for Python, 
 -  **Open to**: Senior GIS Developer, DevOps Lead (GIS), Geospatial Platform Architect  
