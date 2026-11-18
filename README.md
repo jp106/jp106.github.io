@@ -1,8 +1,8 @@
-# JHANSI PAILLA's Personal Website
+# Jhansi Pailla (Jhansi Bheemidi) - Personal Website
 
 
 ##  About
-This repository hosts my personal website where, I share my projects and experience.
+This repository hosts the personal website and portfolio of Jhansi Pailla, also known as Jhansi Bheemidi. It highlights GIS software, ArcGIS Enterprise, Python, spatial data integration, and geospatial consulting experience.
 
 -  **Focus**: Esri - ArcGIS Pro, ArcGIS API for Python, 
 -  **Open to**: Senior GIS Developer, DevOps Lead (GIS), Geospatial Platform Architect  
@@ -25,6 +25,7 @@ This repository hosts my personal website where, I share my projects and experie
 - **ETL Tools**: FME (Safe Software), ArcGIS Data Interoperability
 
 ##  Get in Touch
-- **Email**: [jhansi131@yahoo.com](mailto:jhansi131@yahoo.com)
+- **Website**: [jhansi.gispro.online](https://jhansi.gispro.online/)
+- **Email**: [jhansitheplanz@gmail.com](mailto:jhansitheplanz@gmail.com)
 - **LinkedIn**: [linkedin.com/in/jhansipailla](https://linkedin.com/in/jhansipailla)
 - **GitHub**: [github.com/jp106](https://github.com/jp106)
