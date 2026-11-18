@@ -25,7 +25,7 @@ This repository hosts the personal website and portfolio of Jhansi Bheemidi, als
 - **ETL Tools**: FME (Safe Software), ArcGIS Data Interoperability
 
 ##  Get in Touch
-- **Website**: [jhansi.gispro.online](https://jhansi.gispro.online/)
-- **Email**: [jhansitheplanz@gmail.com](mailto:jhansitheplanz@gmail.com)
+- **[jhansi.gispro.online](https://tr.ee/550h4t)** 
+- **[Email](mailto:jhansitheplanz@gmail.com)**
 - **[LinkedIn](https://tr.ee/sc6Mh9)**
 - **GitHub**: [github.com/jp106](https://github.com/jp106)
